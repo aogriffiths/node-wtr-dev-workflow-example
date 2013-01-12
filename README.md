@@ -32,12 +32,18 @@ dependent on, you want to develop in parallel, but maintain on github separately
 ~/mydevproject/node-wtr-dev-workflow-example-module/
 
 
-3. Write the code for them both (e.g. index.js, README.md, package.json etc)
+3. Code them both (e.g. write index.js, README.md, package.json etc)
 
-Your module should export something and your main project should require your module and 
-use something it exports (otherwise why bother!).
+The module should export something and the main project should require it (otherwise 
+why bother!). If you clone this example and the example module they already to that.
+
 
 0. make your module avilable globaly
+
+    cd ~/mydevproject/node-wtr-dev-workflow-example-module/
+    sudo npm install -g
+    
+This installs the module
 
 
 0. Link your main project to your module. 

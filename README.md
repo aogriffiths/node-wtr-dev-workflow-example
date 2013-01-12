@@ -46,8 +46,12 @@ why bother!). If you clone this example and the example module they already to t
 0. make your module avilable globaly
 
     
-    cd ~/mydevproject/node-wtr-dev-workflow-example-module/
-    sudo npm link -g
+    cd ~/mydevproject/node-wtr-dev-workflow-example  # go into the dir of your main project
+    npm link ../node-wtr-dev-workflow-example-module     # link the dir of your dependency
+    
+    see more at
+    https://npmjs.org/doc/link.html
+    
     
 This installs the module
 

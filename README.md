@@ -38,10 +38,16 @@ The module should export something and the main project should require it (other
 why bother!). If you clone this example and the example module they already to that.
 
 
+4. Make like easier 
+
+    sudo chown -R $USER /usr/local/lib/node_modules/
+    
+    
 0. make your module avilable globaly
 
+    
     cd ~/mydevproject/node-wtr-dev-workflow-example-module/
-    sudo npm install -g
+    sudo npm link -g
     
 This installs the module
 

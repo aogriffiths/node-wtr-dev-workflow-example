@@ -43,27 +43,15 @@ why bother!). If you clone this example and the example module they already to t
     sudo chown -R $USER /usr/local/lib/node_modules/
     
     
-0. make your module avilable globaly
+5. Link to the module from the main project
 
+    cd ~/mydevproject/node-wtr-dev-workflow-example
+    npm link ../node-wtr-dev-workflow-example-module/
     
-    cd ~/mydevproject/node-wtr-dev-workflow-example  # go into the dir of your main project
-    npm link ../node-wtr-dev-workflow-example-module     # link the dir of your dependency
+see more at https://npmjs.org/doc/link.html
     
-    see more at
-    https://npmjs.org/doc/link.html
-    
-    
-This installs the module
-
-
-0. Link your main project to your module. 
-
-In your top level directory run:
-
-    cd ~/mydevproject
-    sudo npm link 
-
-5. Run your main project
+   
+6. Run your main project
 
 e.g.
 

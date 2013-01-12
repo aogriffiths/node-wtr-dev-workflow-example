@@ -34,10 +34,13 @@ dependent on, you want to develop in parallel, but maintain on github separately
 
 3. Write the code for them both (e.g. index.js, README.md, package.json etc)
 
-Your module should export something and your main project could require your module and 
-use something that your modules exports (otherwise why bother!).
+Your module should export something and your main project should require your module and 
+use something it exports (otherwise why bother!).
 
-4. Link your main project to your module. 
+0. make your module avilable globaly
+
+
+0. Link your main project to your module. 
 
 In your top level directory run:
 

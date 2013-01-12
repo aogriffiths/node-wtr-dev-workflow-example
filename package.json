@@ -1,0 +1,23 @@
+{
+  "name": "dev-workflow-example",
+  "description": "A dev workflow example that might help your node.js project grow",
+  "version": "0.0.1",
+  "homepage": "https://github.com/aogriffiths/node-wtr-dev-workflow-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/aogriffiths/node-wtr-dev-workflow-example.git"
+  },
+  "author": {
+    "name": "Adam Griffiths"
+  },
+  "main": "./index",
+  "dependencies": {
+    "dev-workflow-example-module": "*",
+    "express": "3.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

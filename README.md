@@ -31,9 +31,11 @@ git clone git@github.com:aogriffiths/node-wtr-dev-workflow-example-module.git
 ```
    
  Your should now have working directories something like this:
- 
+
+```bash 
 ~/mydevproject/node-wtr-dev-workflow-example/
 ~/mydevproject/node-wtr-dev-workflow-example-module/
+```
 
 
 3. Code them both (e.g. write index.js, README.md, package.json etc)
@@ -44,7 +46,9 @@ why bother!). If you clone this example and the example module they already to t
 
 4. Make like easier 
 
-    sudo chown -R $USER /usr/local/lib/node_modules/
+```bash
+sudo chown -R $USER /usr/local/lib/node_modules/
+```
 
 This will mean you don't need to run subsequent npm commands as sudo, which is arguably more
 secure than having /usr/local/lib/node_modules/ belong to root.
@@ -54,8 +58,10 @@ Link
 
 Link to the module from the main project with:
 
-    cd ~/mydevproject/node-wtr-dev-workflow-example
-    npm link ../node-wtr-dev-workflow-example-module/
+```bash
+cd ~/mydevproject/node-wtr-dev-workflow-example
+npm link ../node-wtr-dev-workflow-example-module/
+```
     
 see more at https://npmjs.org/doc/link.html.
 

@@ -94,7 +94,7 @@ development.
     cd ~/mydevproject/node-wtr-dev-workflow-example
     npm install ../node-wtr-dev-workflow-example-module/
 
-Now you can git commit your main project and anyone cloing or pulling it from there will be able to
-run it, as you intended with needing to find the latest version of your working module, which you
-may or may not have published to the npm repository and you may or may not have pushed to github.
+Now you can git commit your main project and anyone taking a copy will be able to
+run it, as you intended, without needing to find the latest version of the working module, which you
+may or may not have published to the npm repository or github.
 
